@@ -5,6 +5,8 @@ Requirements: python, tensorflow 2+, SimpleITK, pandas, scipy, matplotlib
 
 Trained model provided to associate directory of dicom files with corresponding anatomical z-axis loations based on several landmarks: femoral heads (0mm), kidneys (+246mm), liver dome (+376), shoulder (+541mm), and brain (+748mm). Intermediate values are interpolated linearly.
 
+![](all_locs_and_interp_v4_crop_low.png)
+
 Additionally, a script is provided to perform initial course alignment by AI detection of z-axis coordinates and X/Y center-of-mass.
 
 ![](zval_prediction_alignment.png)
