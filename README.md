@@ -7,8 +7,8 @@ Trained model provided to associate directory of dicom files with corresponding 
 
 Additionally, a script is provided to perform initial course alignment by AI detection of z-axis coordinates and X/Y center-of-mass.
 
-[zval_prediction_alignment.png]
+![](zval_prediction_alignment.png)
 
 Rigid registration then completed with SimpleITK and threshold-derived body mask
 
-[coregistration_sample.png]
+![](coregistration_sample.png)
